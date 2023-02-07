@@ -1,0 +1,31 @@
+﻿  pre.cpp
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\assign.hpp(69): warning C4996: 'ov::Node::evaluate': This method is deprecated and will be removed soon. Please use evaluate with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(221): note: 参见“ov::Node::evaluate”的声明
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\read_value.hpp(73): warning C4996: 'ov::Node::evaluate': This method is deprecated and will be removed soon. Please use evaluate with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(221): note: 参见“ov::Node::evaluate”的声明
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\result.hpp(41): warning C4996: 'ov::Node::evaluate': This method is deprecated and will be removed soon. Please use evaluate with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(211): note: 参见“ov::Node::evaluate”的声明
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\constant.hpp(182): warning C4996: 'ov::Node::evaluate': This method is deprecated and will be removed soon. Please use evaluate with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(211): note: 参见“ov::Node::evaluate”的声明
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\constant.hpp(186): warning C4996: 'ov::Node::evaluate_lower': This method is deprecated and will be removed soon. Please use evaluate_lower with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(226): note: 参见“ov::Node::evaluate_lower”的声明
+c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\op\constant.hpp(187): warning C4996: 'ov::Node::evaluate_upper': This method is deprecated and will be removed soon. Please use evaluate_upper with ov::Tensor instead.
+  c:\program files (x86)\intel\openvino_2022.1.0.643\runtime\include\openvino\core\node.hpp(229): note: 参见“ov::Node::evaluate_upper”的声明
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(46): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(53): warning C4305: “初始化”: 从“double”到“float”截断
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(54): warning C4305: “初始化”: 从“double”到“float”截断
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(70): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+e:\project\vs2017\dog_cat\dog_cat\pre.cpp(77): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“std::string”
+  正在生成代码
+  1 of 353 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  dog_cat.vcxproj -> E:\project\VS2017\dog_cat\x64\Release\dog_cat.exe
